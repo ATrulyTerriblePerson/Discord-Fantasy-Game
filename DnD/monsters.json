@@ -1,0 +1,16 @@
+{
+  "Goblin": {
+    "name": "Goblin",
+    "health": 55,
+    "level": 0,
+    "damage": 5,
+    "attack": "Bash"
+  },
+  "Orc": {
+    "name": "Orc",
+    "health": 80,
+    "level": 1,
+    "damage": 10,
+    "attack": "Smash"
+  }
+}

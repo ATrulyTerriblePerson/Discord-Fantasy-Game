@@ -1,0 +1,57 @@
+{
+    "High Jump": {
+        "description": "Allows the user to jump to great heights.",
+        "stamina_cost": 15,
+        "level": 0,
+        "race": "Elf",
+        "cost": 150,
+        "attributes": {
+            "jump_height": 10,
+            "turns": 1
+        }
+    },
+    "Berserk": {
+        "description": "Increases the user's attack power significantly for a short duration.",
+        "stamina_cost": 20,
+        "level": 0,
+        "race": "Human",
+        "cost": 150,
+        "attributes": {
+            "attack_boost": 50,
+            "turns": 2
+        }
+    },
+    "Stone Skin": {
+        "description": "Hardens the user's skin, reducing incoming damage.",
+        "stamina_cost": 18,
+        "level": 0,
+        "race": "Dwarf",
+        "cost": 150,
+        "attributes": {
+            "damage_reduction": 30,
+            "turns": 3
+        }
+    },
+    "Swift Strike": {
+        "description": "Allows the user to strike quickly, increasing attack speed.",
+        "stamina_cost": 12,
+        "level": 0,
+        "race": "Elf",
+        "cost": 150,
+        "attributes": {
+            "attack_speed_boost": 25,
+            "turns": 2
+        }
+    },
+    "Battle Cry": {
+        "description": "A powerful shout that boosts the morale of allies.",
+        "stamina_cost": 10,
+        "level": 0,
+        "race": "Human",
+        "cost": 150,
+        "attributes": {
+            "ally_attack_boost": 20,
+            "turns": 3
+        }
+    }
+}

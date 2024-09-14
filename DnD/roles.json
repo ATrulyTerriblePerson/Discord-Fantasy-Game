@@ -1,0 +1,10 @@
+[
+    {"name": "Warrior", "description": "A skilled fighter with a focus on physical combat.", "restricted_races": []},
+    {"name": "Mage", "description": "A master of arcane magic, specializing in spells and magical attacks.", "restricted_races": []},
+    {"name": "Rogue", "description": "A stealthy character skilled in espionage, trickery, and sneak attacks.", "restricted_races": []},
+    {"name": "Priest", "description": "A holy character who heals allies and uses divine magic.", "restricted_races": ["Orc", "Goblin"]},
+    {"name": "Paladin", "description": "A righteous warrior who combines martial prowess with divine magic.", "restricted_races": ["Orc", "Goblin"]},
+    {"name": "Ranger", "description": "A skilled archer and wilderness expert with a deep connection to nature.", "restricted_races": []},
+    {"name": "Necromancer", "description": "A dark mage who commands the power of the undead.", "restricted_races": ["Elf", "Dwarf"]},
+    {"name": "Bard", "description": "A versatile performer who uses music and magic to inspire allies and confound enemies.", "restricted_races": []}
+]

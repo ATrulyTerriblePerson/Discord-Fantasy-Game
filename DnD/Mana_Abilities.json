@@ -1,0 +1,57 @@
+{
+    "Fireball": {
+        "description": "A small fireball, not very powerful at low spells.",
+        "damage": 10,
+        "manacost": 10,
+        "level": 0,
+        "cost": 150,
+        "attributes": {
+            "enemy_damage": 10,
+            "turns": 1
+        }
+    },
+    "Minor Healing Spell": {
+        "description": "A basic healing spell that restores a small amount of health.",
+        "healing": 15,
+        "manacost": 8,
+        "level": 0,
+        "cost": 150,
+        "attributes": {
+            "ally_heal": 15,
+            "turns": 1
+        }
+    },
+    "Minor Defensive Spell": {
+        "description": "A simple spell that provides a minor protective shield.",
+        "defense": 5,
+        "manacost": 12,
+        "level": 0,
+        "cost": 150,
+        "attributes": {
+            "ally_defense_buff": 5,
+            "turns": 3
+        }
+    },
+    "Minor Blinding Spell": {
+        "description": "A spell that temporarily blinds the target.",
+        "effect": "Blinds target for 5 seconds",
+        "manacost": 10,
+        "level": 0,
+        "cost": 150,
+        "attributes": {
+            "enemy_debuff": 50,
+            "turns": 1
+        }
+    },
+    "Minor Enhance Spell": {
+        "description": "A spell that slightly enhances a target's abilities.",
+        "effect": "Increases target's strength by 2 for 10 seconds",
+        "manacost": 10,
+        "level": 0,
+        "cost": 150,
+        "attributes": {
+            "ally_defense_buff": 12,
+            "turns": 3
+        }
+    }
+}

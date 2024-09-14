@@ -1,0 +1,142 @@
+{
+    "Rusty Iron Sword": {
+        "level": 0,
+        "damage": 2,
+        "description": "An old and rusty sword, barely sharp.",
+        "durability": null,
+        "type": "melee"
+    },
+    "Grandfather's Hunting Bow": {
+        "level": 0,
+        "damage": 3,
+        "description": "A bow passed down through generations, still functional.",
+        "durability": null,
+        "type": "ranged"
+    },
+    "Woodcutting Axe": {
+        "level": 0,
+        "damage": 4,
+        "description": "An axe used for chopping wood, now repurposed for battle.",
+        "durability": null,
+        "type": "melee"
+    },
+    "Bendy Spear": {
+        "level": 0,
+        "damage": 2,
+        "description": "A spear that bends slightly, not very reliable.",
+        "durability": null,
+        "type": "melee"
+    },
+    "Handful of Marbles": {
+        "level": 0,
+        "damage": 4,
+        "description": "A small handful of marbles, not sure how they got here...",
+        "durability": null,
+        "type": "ranged"
+    },
+    "Used Broadsword": {
+        "level": 1,
+        "damage": 5,
+        "description": "A well-used broadsword, still functional.",
+        "durability": 100,
+        "type": "melee"
+    },
+    "Enchanted Dagger": {
+        "level": 1,
+        "damage": 6,
+        "cost": 100,
+        "description": "A small dagger that glows with a faint magical light.",
+        "durability": 250,
+        "type": "melee",
+        "abilities": {
+            "poison_strike": {
+                "description": "Chance to poison the enemy, dealing additional damage over time.",
+                "chance": 20,
+                "damage": 4,
+                "type": "melee"
+            }
+        },
+        "inspect": {
+            "level_1": "The dagger seems sharper than usual.",
+            "level_2": "You notice faint runes etched along the blade, glowing with energy."
+        }
+    },
+    "Knight's Longsword": {
+        "level": 2,
+        "damage": 8,
+        "cost": 250,
+        "description": "A well-crafted longsword, standard issue for knights.",
+        "durability": 523,
+        "type": "melee",
+        "abilities": {
+            "armor_pierce": {
+                "description": "Has a chance to ignore enemy armor.",
+                "chance": 25,
+                "type": "melee"
+            }
+        },
+        "inspect": {
+            "level_1": "The blade is meticulously sharpened.",
+            "level_2": "The hilt is engraved with a knight's crest, symbolizing its high quality."
+        }
+    },
+    "Stormcaller Staff": {
+        "level": 2,
+        "damage": 10,
+        "cost": 300,
+        "description": "A staff imbued with the power of storms, crackling with electricity.",
+        "durability": 500,
+        "type": "ranged",
+        "abilities": {
+            "lightning_strike": {
+                "description": "Casts a lightning bolt that can chain to nearby enemies.",
+                "damage": 12,
+                "chain_chance": 50,
+                "type": "ranged"
+            }
+        },
+        "inspect": {
+            "level_1": "The staff vibrates slightly, as if containing immense power.",
+            "level_2": "You notice storm clouds forming briefly around the tip as you hold it."
+        }
+    },
+    "Shadowblade": {
+        "level": 2,
+        "damage": 12,
+        "cost": 350,
+        "description": "A blade forged from shadows, difficult to see and even harder to defend against.",
+        "durability": 250,
+        "type": "melee",
+        "abilities": {
+            "backstab": {
+                "description": "Deals extra damage when attacking from behind.",
+                "damage": 6,
+                "type": "melee"
+            }
+        },
+        "inspect": {
+            "level_1": "The blade is almost invisible in dim light.",
+            "level_2": "You notice the blade seems to absorb light, making it blend into the shadows."
+        }
+    },
+    "Flamebrand": {
+        "level": 1,
+        "damage": 8,
+        "cost": 200,
+        "description": "A sword with a blade that burns with an eternal flame.",
+        "durability": 250,
+        "type": "melee",
+        "abilities": {
+            "flame_strike": {
+                "description": "Has a chance to set the enemy on fire, dealing damage over time.",
+                "chance": 30,
+                "damage": 4,
+                "type": "melee"
+            }
+        },
+        "inspect": {
+            "level_1": "The blade is warm to the touch, even when sheathed.",
+            "level_2": "You realize the flame is not normal fire; it burns without fuel."
+        }
+    }
+}

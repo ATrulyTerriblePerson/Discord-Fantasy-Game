@@ -1,0 +1,577 @@
+[
+    {
+        "name": "Human",
+        "description": "Versatile and adaptable, humans have a wide range of abilities and skills.",
+        "attributes": {
+            "base_health": 100,
+            "base_height": 170,
+            "weaknesses": [],
+            "strengths": ["Adaptability", "Quick Learning"],
+            "mana": 40,
+            "stamina": 50,
+            "unique_abilities": [
+                {
+                    "name": "Survivor's Instinct",
+                    "description": "Increases survival chances in critical situations. Reduces damage taken by 10% when health drops below 20%."
+                }
+            ]
+        },
+        "evolutions": [
+            {
+                "name": "Knight",
+                "description": "A powerful melee combatant with enhanced stamina and physical strength.",
+                "level_required": 10,
+                "attributes": {
+                    "base_health": 120,
+                    "base_height": 175,
+                    "weaknesses": ["Magic"],
+                    "strengths": ["High Physical Defense", "Enhanced Strength"],
+                    "mana": 30,
+                    "stamina": 70,
+                    "unique_abilities": [
+                        {
+                            "name": "Shield Bash",
+                            "description": "Stuns the opponent for one turn and deals physical damage."
+                        }
+                    ]
+                },
+                "evolutions": [
+                    {
+                        "name": "Paladin",
+                        "description": "A holy warrior with enhanced defense and healing abilities.",
+                        "level_required": 25,
+                        "attributes": {
+                            "base_health": 140,
+                            "base_height": 180,
+                            "weaknesses": ["Dark Magic"],
+                            "strengths": ["Healing", "High Defense"],
+                            "mana": 50,
+                            "stamina": 80,
+                            "unique_abilities": [
+                                {
+                                    "name": "Holy Light",
+                                    "description": "Heals allies and deals light damage to enemies."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Champion",
+                        "description": "A master of combat with unmatched physical prowess and leadership.",
+                        "level_required": 50,
+                        "attributes": {
+                            "base_health": 160,
+                            "base_height": 185,
+                            "weaknesses": ["Magic"],
+                            "strengths": ["Unmatched Strength", "Leadership"],
+                            "mana": 40,
+                            "stamina": 100,
+                            "unique_abilities": [
+                                {
+                                    "name": "Inspiring Presence",
+                                    "description": "Boosts the morale and combat effectiveness of allies."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Mage",
+                "description": "Specializes in magic, increasing mana and magical abilities.",
+                "level_required": 10,
+                "attributes": {
+                    "base_health": 80,
+                    "base_height": 165,
+                    "weaknesses": ["Physical Attacks"],
+                    "strengths": ["High Mana", "Magical Affinity"],
+                    "mana": 80,
+                    "stamina": 30,
+                    "unique_abilities": [
+                        {
+                            "name": "Fireball",
+                            "description": "Shoots a fireball that deals fire damage and can cause burning status."
+                        }
+                    ]
+                },
+                "evolutions": [
+                    {
+                        "name": "Archmage",
+                        "description": "A master of arcane arts with powerful spellcasting abilities.",
+                        "level_required": 25,
+                        "attributes": {
+                            "base_health": 90,
+                            "base_height": 170,
+                            "weaknesses": ["Physical Attacks"],
+                            "strengths": ["Arcane Mastery", "High Mana Pool"],
+                            "mana": 100,
+                            "stamina": 20,
+                            "unique_abilities": [
+                                {
+                                    "name": "Meteor Swarm",
+                                    "description": "Calls down a shower of meteors dealing massive fire damage."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Sorcerer Supreme",
+                        "description": "A pinnacle of magical power with dominion over all forms of magic.",
+                        "level_required": 50,
+                        "attributes": {
+                            "base_health": 100,
+                            "base_height": 175,
+                            "weaknesses": ["Physical Attacks"],
+                            "strengths": ["Supreme Magic", "Elemental Control"],
+                            "mana": 120,
+                            "stamina": 10,
+                            "unique_abilities": [
+                                {
+                                    "name": "Arcane Dominion",
+                                    "description": "Grants control over multiple elements and spells, with reduced mana cost."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Elf",
+        "description": "Graceful and wise, Elves have a deep connection to nature and magic.",
+        "attributes": {
+            "base_health": 125,
+            "base_height": 180,
+            "weaknesses": ["Physical Attacks"],
+            "strengths": ["Enhanced Senses", "Magical Affinity"],
+            "mana": 70,
+            "stamina": 20,
+            "unique_abilities": [
+                {
+                    "name": "Nature’s Grace",
+                    "description": "Allows faster movement through forests and increased mana regeneration in nature settings."
+                }
+            ]
+        },
+        "evolutions": [
+            {
+                "name": "High Elf",
+                "description": "Specializes in powerful magic and heightened intelligence.",
+                "level_required": 10,
+                "attributes": {
+                    "base_health": 110,
+                    "base_height": 185,
+                    "weaknesses": ["Physical Attacks"],
+                    "strengths": ["Powerful Magic", "High Intelligence"],
+                    "mana": 90,
+                    "stamina": 15,
+                    "unique_abilities": [
+                        {
+                            "name": "Arcane Blast",
+                            "description": "Deals high magical damage to a single target and can dispel magic effects."
+                        }
+                    ]
+                },
+                "evolutions": [
+                    {
+                        "name": "Grand Elf",
+                        "description": "A sage-like being with unparalleled magical power and wisdom.",
+                        "level_required": 25,
+                        "attributes": {
+                            "base_health": 120,
+                            "base_height": 190,
+                            "weaknesses": ["Physical Attacks"],
+                            "strengths": ["Ultimate Magic", "Enhanced Wisdom"],
+                            "mana": 120,
+                            "stamina": 10,
+                            "unique_abilities": [
+                                {
+                                    "name": "Ethereal Beam",
+                                    "description": "Unleashes a powerful beam of pure magical energy that deals massive damage."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Elder Elf",
+                        "description": "An ancient and revered elf with immense magical and spiritual power.",
+                        "level_required": 50,
+                        "attributes": {
+                            "base_health": 130,
+                            "base_height": 195,
+                            "weaknesses": ["Physical Attacks"],
+                            "strengths": ["Ancient Magic", "Spiritual Guidance"],
+                            "mana": 150,
+                            "stamina": 5,
+                            "unique_abilities": [
+                                {
+                                    "name": "Celestial Harmony",
+                                    "description": "Restores health and mana to allies and enhances their magical abilities."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Dark Elf",
+                "description": "Gains stealth and shadow manipulation abilities, with some immunity to dark magic.",
+                "level_required": 10,
+                "attributes": {
+                    "base_health": 120,
+                    "base_height": 175,
+                    "weaknesses": ["Light Magic"],
+                    "strengths": ["Stealth", "Shadow Manipulation"],
+                    "mana": 60,
+                    "stamina": 30,
+                    "unique_abilities": [
+                        {
+                            "name": "Shadow Strike",
+                            "description": "Deals dark damage and has a chance to blind the target."
+                        }
+                    ]
+                },
+                "evolutions": [
+                    {
+                        "name": "Nightblade",
+                        "description": "Masters of shadow and deception, with increased damage and stealth abilities.",
+                        "level_required": 25,
+                        "attributes": {
+                            "base_health": 130,
+                            "base_height": 180,
+                            "weaknesses": ["Light Magic"],
+                            "strengths": ["Enhanced Stealth", "Shadow Mastery"],
+                            "mana": 70,
+                            "stamina": 40,
+                            "unique_abilities": [
+                                {
+                                    "name": "Eclipse",
+                                    "description": "Summons a shadowy eclipse that damages and obscures vision for enemies."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Shadowlord",
+                        "description": "Wielders of ultimate dark power with the ability to manipulate shadows and darkness.",
+                        "level_required": 50,
+                        "attributes": {
+                            "base_health": 140,
+                            "base_height": 185,
+                            "weaknesses": ["Light Magic"],
+                            "strengths": ["Ultimate Shadow Manipulation", "Dark Magic"],
+                            "mana": 90,
+                            "stamina": 30,
+                            "unique_abilities": [
+                                {
+                                    "name": "Shadow Dominion",
+                                    "description": "Controls shadows to attack and protect, with reduced damage from light-based attacks."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dwarf",
+        "description": "Sturdy and resilient, dwarves excel in mining and crafting, with exceptional physical strength.",
+        "attributes": {
+            "base_health": 150,
+            "base_height": 140,
+            "weaknesses": ["Magic"],
+            "strengths": ["Physical Strength", "High Defense"],
+            "mana": 30,
+            "stamina": 60,
+            "unique_abilities": [
+                {
+                    "name": "Stoneform",
+                    "description": "Increases physical resistance and reduces damage taken from physical attacks."
+                }
+            ]
+        },
+        "evolutions": [
+            {
+                "name": "Warrior",
+                "description": "A formidable fighter with enhanced physical strength and combat skills.",
+                "level_required": 10,
+                "attributes": {
+                    "base_health": 160,
+                    "base_height": 145,
+                    "weaknesses": ["Magic"],
+                    "strengths": ["Exceptional Combat Skills", "High Strength"],
+                    "mana": 20,
+                    "stamina": 80,
+                    "unique_abilities": [
+                        {
+                            "name": "Berserk Rage",
+                            "description": "Temporarily boosts attack power and speed, increasing damage dealt."
+                        }
+                    ]
+                },
+                "evolutions": [
+                    {
+                        "name": "Berserker",
+                        "description": "An unstoppable force with extreme combat prowess and rage abilities.",
+                        "level_required": 25,
+                        "attributes": {
+                            "base_health": 180,
+                            "base_height": 150,
+                            "weaknesses": ["Magic"],
+                            "strengths": ["Unstoppable Rage", "High Defense"],
+                            "mana": 10,
+                            "stamina": 100,
+                            "unique_abilities": [
+                                {
+                                    "name": "Frenzy",
+                                    "description": "Unleashes a furious assault, dealing massive damage and increasing attack speed."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Dwarven Lord",
+                        "description": "A legendary warrior with supreme combat abilities and leadership.",
+                        "level_required": 50,
+                        "attributes": {
+                            "base_health": 200,
+                            "base_height": 155,
+                            "weaknesses": ["Magic"],
+                            "strengths": ["Legendary Combat Skills", "Unmatched Strength"],
+                            "mana": 15,
+                            "stamina": 120,
+                            "unique_abilities": [
+                                {
+                                    "name": "Earthquake",
+                                    "description": "Causes a powerful shockwave that damages and stuns enemies in a large area."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Smith",
+                "description": "Expert in crafting and wielding powerful weapons and armor.",
+                "level_required": 10,
+                "attributes": {
+                    "base_health": 140,
+                    "base_height": 145,
+                    "weaknesses": ["Magic"],
+                    "strengths": ["Master Smithing", "Enhanced Crafting"],
+                    "mana": 20,
+                    "stamina": 70,
+                    "unique_abilities": [
+                        {
+                            "name": "Forge Mastery",
+                            "description": "Can craft and enhance weapons and armor with special properties."
+                        }
+                    ]
+                },
+                "evolutions": [
+                    {
+                        "name": "Runesmith",
+                        "description": "Master of runic magic and enchanting, imbuing items with magical properties.",
+                        "level_required": 25,
+                        "attributes": {
+                            "base_health": 150,
+                            "base_height": 150,
+                            "weaknesses": ["Magic"],
+                            "strengths": ["Runic Magic", "Advanced Crafting"],
+                            "mana": 40,
+                            "stamina": 60,
+                            "unique_abilities": [
+                                {
+                                    "name": "Runic Empowerment",
+                                    "description": "Enhances weapons and armor with powerful runes, granting special abilities."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Dwarven Master",
+                        "description": "A legendary smith with the ability to craft the most powerful and unique items.",
+                        "level_required": 50,
+                        "attributes": {
+                            "base_health": 160,
+                            "base_height": 155,
+                            "weaknesses": ["Magic"],
+                            "strengths": ["Legendary Crafting", "Ultimate Smithing"],
+                            "mana": 30,
+                            "stamina": 80,
+                            "unique_abilities": [
+                                {
+                                    "name": "Masterpiece",
+                                    "description": "Creates a legendary weapon or armor with exceptional attributes and abilities."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Isekai Protagonist",
+        "description": "Huh, I wonder how I got here!",
+        "attributes": {
+            "base_health": 80,
+            "base_height": 150,
+            "weaknesses": ["Showering", "Cringe"],
+            "strengths": ["Charisma"],
+            "mana": 220,
+            "stamina": 220,
+            "unique_abilities": [
+                {
+                    "name": "Cheat Ability!",
+                    "description": "Temporarily increases Charisma to max"
+                }
+            ]
+        },
+        "evolutions": [
+            {
+                "name": "Generic Swordsman",
+                "description": "You have a sword now, congrats!",
+                "level_required": 10,
+                "attributes": {
+                    "base_health": 80,
+                    "base_height": 150,
+                    "weaknesses": ["Showering", "Cringe"],
+                    "strengths": ["Charisma", "Sword Skill"],
+                    "mana": 220,
+                    "stamina": 220,
+                    "unique_abilities": [
+                        {
+                            "name": "Cut you in half!",
+                            "description": "Increases damage by 50% for 2 turns against 1 enemy."
+                        }
+                    ]
+                },
+                "evolutions": [
+                    {
+                        "name": "Kirito!",
+                        "description": "You know him from SAO, now see him in this trash game :3",
+                        "level_required": 35,
+                        "attributes": {
+                            "base_health": 120,
+                            "base_height": 180,
+                            "weaknesses": ["Overconfidence", "Social Awkwardness"],
+                            "strengths": ["Charisma", "Sword Skill", "Dual Wielding"],
+                            "mana": 60,
+                            "stamina": 70,
+                            "unique_abilities": [
+                                {
+                                    "name": "Starburst Stream",
+                                    "description": "Unleashes a flurry of 16 rapid sword strikes, dealing massive damage."
+                                }
+                            ]
+                        },
+                        "evolutions": [
+                            {
+                                "name": "Ultimate Hero",
+                                "description": "The pinnacle of your journey, embodying the ultimate hero!",
+                                "level_required": 50,
+                                "attributes": {
+                                    "base_health": 200,
+                                    "base_height": 185,
+                                    "weaknesses": ["None"],
+                                    "strengths": ["Charisma", "Sword Skill", "Dual Wielding", "Leadership"],
+                                    "mana": 100,
+                                    "stamina": 100,
+                                    "unique_abilities": [
+                                        {
+                                            "name": "Hero's Resolve",
+                                            "description": "Temporarily becomes invincible and boosts all allies' stats for 3 turns."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Orc",
+        "description": "Brutal and fierce, orcs are known for their incredible strength and combat skills.",
+        "attributes": {
+            "base_health": 160,
+            "base_height": 200,
+            "weaknesses": ["Magic"],
+            "strengths": ["Physical Power", "High Resilience"],
+            "mana": 20,
+            "stamina": 80,
+            "unique_abilities": [
+                {
+                    "name": "War Cry",
+                    "description": "Boosts attack power and intimidates enemies, reducing their defense."
+                }
+            ]
+        },
+        "evolutions": [
+            {
+                "name": "Berserker",
+                "description": "A ferocious warrior with unmatched rage and combat prowess.",
+                "level_required": 10,
+                "attributes": {
+                    "base_health": 170,
+                    "base_height": 210,
+                    "weaknesses": ["Magic"],
+                    "strengths": ["Extreme Strength", "Combat Rage"],
+                    "mana": 10,
+                    "stamina": 100,
+                    "unique_abilities": [
+                        {
+                            "name": "Frenzy",
+                            "description": "Increases attack speed and damage while taking reduced damage."
+                        }
+                    ]
+                },
+                "evolutions": [
+                    {
+                        "name": "Warchief",
+                        "description": "A leader of orcs with exceptional battle tactics and powerful attacks.",
+                        "level_required": 25,
+                        "attributes": {
+                            "base_health": 180,
+                            "base_height": 220,
+                            "weaknesses": ["Magic"],
+                            "strengths": ["Leadership", "High Damage"],
+                            "mana": 15,
+                            "stamina": 120,
+                            "unique_abilities": [
+                                {
+                                    "name": "Battle Frenzy",
+                                    "description": "Unleashes a powerful battle cry that increases the attack power of allies and deals damage to enemies."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Overlord",
+                        "description": "A fearsome ruler with devastating power and control over orcish armies.",
+                        "level_required": 50,
+                        "attributes": {
+                            "base_health": 200,
+                            "base_height": 230,
+                            "weaknesses": ["Magic"],
+                            "strengths": ["Ultimate Strength", "Army Control"],
+                            "mana": 20,
+                            "stamina": 140,
+                            "unique_abilities": [
+                                {
+                                    "name": "Earthshaker",
+                                    "description": "Causes a massive earthquake that deals heavy damage and disrupts enemy formations."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
+

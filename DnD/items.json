@@ -1,0 +1,23 @@
+{
+    "materials": [
+        {
+            "name": "Iron",
+            "base_price": 10
+        },
+        {
+            "name": "Coal",
+            "base_price": 5
+        },
+        {
+            "name": "Sturdy Stick",
+            "base_price": 3
+        }
+    ],
+    "potions": [
+        {
+            "name": "Lower Potion of Restoration",
+            "quantity": 1,
+            "base_price": 20
+        }
+    ]
+}

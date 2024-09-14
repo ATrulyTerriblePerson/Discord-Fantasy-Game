@@ -1,0 +1,62 @@
+{
+    "Leather Helmet": {
+        "level": 0,
+        "defense": "1d4",
+        "cost": 10,
+        "description": "A basic leather helmet, offering minimal protection.",
+        "durability": 50,
+        "type": "helmet",
+        "debuffs": []
+    },
+    "Rusty Shield": {
+        "level": 0,
+        "defense": "1d6",
+        "cost": 15,
+        "description": "An old shield, rusted but still functional.",
+        "durability": 30,
+        "type": "shield",
+        "debuffs": [
+            "rusty"
+        ]
+    },
+    "Scrap Chestplate": {
+        "level": 0,
+        "defense": "1d8",
+        "cost": 20,
+        "description": "A chestplate made from scrap metal, not very reliable.",
+        "durability": 40,
+        "type": "chestplate",
+        "debuffs": [
+            "heavy"
+        ]
+    },
+    "Worn Gauntlets": {
+        "level": 0,
+        "defense": "1d2",
+        "cost": 5,
+        "description": "Gauntlets showing signs of heavy use.",
+        "durability": 20,
+        "type": "gauntlets",
+        "debuffs": [
+            "tetanus"
+        ]
+    },
+    "Old Boots": {
+        "level": 0,
+        "defense": "1d3",
+        "cost": 8,
+        "description": "Boots with worn-out soles, providing minimal protection.",
+        "durability": 25,
+        "type": "boots",
+        "debuffs": []
+    },
+    "Patchwork Leggings": {
+        "level": 0,
+        "defense": "1d5",
+        "cost": 12,
+        "description": "Leggings patched together from various scraps.",
+        "durability": 30,
+        "type": "leggings",
+        "debuffs": []
+    }
+}
